@@ -1,0 +1,171 @@
+body {
+	background-color: #777777;
+}
+img {
+	border: 0;
+}
+
+
+#container{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #777777;	
+}
+
+
+
+/*------------------------------ HEADER------------------------------*/
+
+#header{
+	width:1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #777777;
+	color: white;
+	font-family: cambria;
+	font-size: medium;
+	
+	
+}
+.logo{
+	display: block;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	width:140px;
+	height:100px;
+}
+#header table{
+	
+	margin: 0px;
+	width:950px;
+	height: 100px;
+	color: #FFFFFF;
+}
+
+#header td a{
+	text-decoration: none;
+	color: black;
+}
+#header td a:hover{
+	color: #CCEA8D;
+}
+/*------------------------------ NAVIGATION BAR ------------------------------*/
+
+#nav{
+	width: 1024px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #222222;
+	font-family: cambria;
+}
+#nav ul{
+	margin: 0;
+	margin-left: 200px;
+	padding: 0;
+}
+
+#nav ul li{
+	list-style: none;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 10px 40px;
+	color: #CCEA8D;
+}
+#nav ul li a:hover{
+	color:#FFFFFF;
+}
+#inerNav{
+	margin-left: auto;
+	margin-right: auto;
+	font-size:15px;
+	color: white;
+	font-family: cambria;
+}
+/*------------------------------ MAIN SECTION ------------------------------*/
+#main{
+	width:1024px;
+	height: 475px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	font-family: cambria;
+	font-size: small;
+	text-align: center;
+	
+}
+.layoutTable {
+ 
+ border: 5px solid YellowGreen;
+ 
+}
+
+.layoutTable td { 
+ border: 7px solid DimGrey; 
+}
+
+#first td { 
+ width: 512px; 
+ height: 340px; 
+}
+
+
+
+.bannerRow{
+	background-color: #CCEA8D;
+	color: #FFFFFF;
+	font-family: cambria;	
+}
+.imageShop{
+	
+	width:180px;
+	height:130px;
+}
+
+}
+.tableLogin{
+	width:950px;
+	margin-left: 40px;
+}
+
+#mainHead{
+	text-align: center;
+	color: YellowGreen;
+}
+#secHead{
+	text-align: center;
+	color: YellowGreen;
+	font-size: 20px;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
+
+#footer{
+	width:1024px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	clear:both;
+	background-color: #222222;
+	color:#777777;
+	font-family: cambria;
+	font-size: medium;
+}
+.footerTable{
+	width:1024px;
+	height:50px;
+}
+.footerTd{
+	padding: 10px;
+}
+
+#hello{
+	color:#FFFFFF;
+}
